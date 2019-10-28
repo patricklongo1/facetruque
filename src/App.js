@@ -5,10 +5,11 @@ import PostList from './components/PostList/PostList'
 
 function App(){
     return (
-      <>
-      <Header />
-      <PostList />
-      </>
+      <div id="app">
+        <Header />
+        <PostList />
+      </div>
+
     )
 }
 
