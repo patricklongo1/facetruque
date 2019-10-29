@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import logoFace from '../../assets/face.png'
+import logoFace from '../../assets/facebook-1.svg'
 
 function Header(){
   return (

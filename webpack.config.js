@@ -30,6 +30,13 @@ module.exports = {
                     loader: 'file-loader'
                 },
             },
+            {
+                test: /\.svg$/, // Expressão regular para capturar arquivos com extensão .js
+                exclude: /node_modules/,
+                use: {
+                    loader: 'react-svg-loader',
+                }
+            },
         ],
     },
 };
