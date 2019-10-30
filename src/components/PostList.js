@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import imageA from '../assets/Rectangle3.svg'
 import imageB from '../assets/profile.svg'
+import imageC from '../assets/Rectangle4.svg'
+import imageD from '../assets/Rectangle6.svg'
+import imageF from '../assets/Rectangle5.svg'
 import PostItem from './PostItem.js';
 
 class PostList extends Component {
@@ -30,8 +33,8 @@ class PostList extends Component {
       {
         id: 2,
         author: {
-          name: 'Neil Cook',
-          avatar: 'https://i.pravatar.cc/150?img=8'
+          name: 'Almerinda Silva',
+          avatar: imageD,
         },
         date: '04 Jun 2019',
         content:
@@ -40,8 +43,8 @@ class PostList extends Component {
           {
             id: 1,
             author: {
-              name: 'Clara Lisboa',
-              avatar: 'https://i.pravatar.cc/150?img=5'
+              name: 'Julio Lisboa',
+              avatar: imageF,
             },
             date: '04 Jun 2019',
             content:
@@ -51,7 +54,7 @@ class PostList extends Component {
             id: 2,
             author: {
               name: 'Cézar Toledo',
-              avatar: 'https://i.pravatar.cc/150?img=11'
+              avatar: imageC,
             },
             date: '04 Jun 2019',
             content:
